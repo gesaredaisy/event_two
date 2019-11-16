@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Update Todo-List Item"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/cardview_shadow_end_color"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems ="10"
+        android:hint = "Edit Notes"
+        android:id="@+id/editnotes"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems ="10"
+        android:hint = "Edit Task"
+        android:id="@+id/edittasks"
+        android:layout_marginTop="5dp"/>
+    
+    <Button
+        android:text="UPDATE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editbutton"
+        android:background="@drawable/rounded_border_button" />
+
+
+</LinearLayout>
